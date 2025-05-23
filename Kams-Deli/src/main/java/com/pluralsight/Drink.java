@@ -2,13 +2,11 @@ package com.pluralsight;
 
 public class Drink extends MenuItem{
 
-    private String size;   // "Small", "Medium", or "Large"
-    private String flavor; // e.g., "Cola", "Lemonade", etc.
+    private String size; // "Small", "Medium", "Large"
 
-    public Drink(String size, String flavor) {
-        super(size + " " + flavor + " Drink");
+    public Drink(String size) {
+        super(size + " Drink");
         this.size = size;
-        this.flavor = flavor;
     }
 
     @Override
@@ -23,6 +21,6 @@ public class Drink extends MenuItem{
 
     @Override
     public String toString() {
-        return size + " " + flavor + " Drink - $" + String.format("%.2f", getPrice());
+        return size + " Drink - $" + String.format("%.2f", getPrice());
     }
 }
