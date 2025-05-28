@@ -8,9 +8,8 @@ import java.util.Date;
 public class Receipt {
 
     public static void save(Order order) {
-        // Format: yyyyMMdd-HHmmss.txt
         String timestamp = new SimpleDateFormat("yyyyMMdd-HHmmss").format(new Date());
-        String fileName = "receipt-" + timestamp + ".txt";
+        String fileName = "receipts/receipt-" + timestamp + ".txt";
 
         try {
             FileWriter writer = new FileWriter(fileName);
@@ -22,4 +21,3 @@ public class Receipt {
         }
     }
 }
-

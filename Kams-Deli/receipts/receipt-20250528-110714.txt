@@ -1,0 +1,10 @@
+Order Summary:
+- 8" sandwich on white (Toasted)
+Meats: chicken
+Cheeses: provolone
+Toppings: lettuce
+Sauces: ranch
+Price: $10.50
+- large Drink - $3.00
+- Chips - $1.50
+Total: $15.00
