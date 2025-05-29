@@ -77,7 +77,7 @@ public class SandwichBuilder {
 
         // === REGULAR TOPPING SELECTION ===
         String[] availableRegulars = {
-                "lettuce", "peppers", "onions", "tomatoes", "jalapeños", "cucumbers", "pickles", "guacamole", "mushrooms"
+                "lettuce", "peppers", "onions", "tomatoes", "jalapenos", "cucumbers", "pickles", "guacamole", "mushrooms"
         };
 
         System.out.println("Add regular toppings (type one at a time, type 'done' when finished):");

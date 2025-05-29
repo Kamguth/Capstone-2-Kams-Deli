@@ -72,7 +72,7 @@ public class Sandwich extends MenuItem {
     private String listToString(List<Topping> list) {
         return list.stream()
                 .map(Topping::toString)
-                .reduce((a, b) -> a + ", " + b)
+                .reduce((a, b) -> a + ", " + b)//combines all strings w a comma between all
                 .orElse("None");
     }
 }

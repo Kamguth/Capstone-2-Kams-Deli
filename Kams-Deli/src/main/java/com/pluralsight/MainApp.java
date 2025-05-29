@@ -61,7 +61,7 @@ public class MainApp {
 
                 case "0":
                     running = false;
-                    System.out.println("Thanks for visiting DELI-cious!");
+                    System.out.println("Thanks for visiting Kam's Deli!");
                     break;
 
                 default:
