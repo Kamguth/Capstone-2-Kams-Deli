@@ -13,7 +13,7 @@ public class Receipt {
 
         try {
             FileWriter writer = new FileWriter(fileName);
-            writer.write(order.toString());
+            writer.write(order.toString()); //writes txt to filename
             writer.close();
             System.out.println("Receipt saved as: " + fileName);
         } catch (IOException e) {
